@@ -1,0 +1,15 @@
+# Eagle PCB backup files
+*.s#*
+*.b#*
+
+# KiCAD backup and cache files
+*.bak
+*-bak
+*-cache
+*-cache.lib
+
+
+# Microsoft temporary files
+~*.docx
+~*.xlsx
+*.tmp
