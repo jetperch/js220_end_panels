@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -250,7 +250,7 @@
 </package>
 <package name="BINDING_POST_6">
 <pad name="1" x="0" y="0" drill="3.7592" diameter="8.89"/>
-<circle x="0" y="0" radius="5.3848" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="5.461" width="0.127" layer="41"/>
 <circle x="0" y="0" radius="4.826" width="0.127" layer="40"/>
 <text x="-1.778" y="5.588" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
 </package>
@@ -262,44 +262,6 @@
 <wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="51"/>
 <smd name="P1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" thermals="no" cream="no"/>
-</package>
-<package name="CONN_0.1_5X1_F_RA">
-<pad name="1" x="-5.08" y="0" drill="1.016" shape="square"/>
-<pad name="2" x="-2.54" y="0" drill="1.016"/>
-<pad name="3" x="0" y="0" drill="1.016"/>
-<pad name="4" x="2.54" y="0" drill="1.016"/>
-<pad name="5" x="5.08" y="0" drill="1.016"/>
-<rectangle x1="-7.112" y1="-10.287" x2="7.112" y2="1.524" layer="39"/>
-<text x="-6.35" y="1.524" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
-<wire x1="-6.35" y1="0.762" x2="-6.35" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="-6.604" y1="-1.524" x2="6.604" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="6.604" y1="-1.524" x2="6.604" y2="-9.779" width="0.127" layer="21"/>
-<wire x1="6.604" y1="-9.779" x2="-6.604" y2="-9.779" width="0.127" layer="21"/>
-<wire x1="-6.604" y1="-9.779" x2="-6.604" y2="-1.524" width="0.127" layer="21"/>
-<rectangle x1="-5.3848" y1="-1.524" x2="-4.7752" y2="-1.016" layer="21"/>
-<rectangle x1="-2.8448" y1="-1.524" x2="-2.2352" y2="-1.016" layer="21"/>
-<rectangle x1="-0.3048" y1="-1.524" x2="0.3048" y2="-1.016" layer="21"/>
-<rectangle x1="2.2352" y1="-1.524" x2="2.8448" y2="-1.016" layer="21"/>
-<rectangle x1="4.7752" y1="-1.524" x2="5.3848" y2="-1.016" layer="21"/>
-<rectangle x1="-6.604" y1="-1.524" x2="6.604" y2="1.524" layer="40"/>
-<wire x1="-6.604" y1="-1.524" x2="-6.604" y2="-9.779" width="0.127" layer="51"/>
-<wire x1="-6.604" y1="-9.779" x2="6.604" y2="-9.779" width="0.127" layer="51"/>
-<wire x1="6.604" y1="-9.779" x2="6.604" y2="-1.524" width="0.127" layer="51"/>
-<wire x1="6.604" y1="-1.524" x2="-6.604" y2="-1.524" width="0.127" layer="51"/>
-<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="0.254" layer="51"/>
-<circle x="-5.08" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="-2.54" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="2.54" y="0" radius="0.508" width="0.127" layer="51"/>
-<circle x="5.08" y="0" radius="0.508" width="0.127" layer="51"/>
-<wire x1="-5.715" y1="0.635" x2="-5.715" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-5.715" y1="-0.635" x2="-4.445" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="-0.635" x2="-4.445" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-4.445" y1="0.635" x2="-5.715" y2="0.635" width="0.127" layer="51"/>
 </package>
 <package name="HOLE_3.5MM">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
@@ -456,6 +418,51 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <hole x="-3.81" y="0" drill="1.78"/>
 <hole x="3.81" y="0" drill="1.78"/>
 </package>
+<package name="CONN_0.1_5X1_F_RA">
+<pad name="1" x="-5.08" y="0" drill="1.016" shape="square"/>
+<pad name="2" x="-2.54" y="0" drill="1.016"/>
+<pad name="3" x="0" y="0" drill="1.016"/>
+<pad name="4" x="2.54" y="0" drill="1.016"/>
+<pad name="5" x="5.08" y="0" drill="1.016"/>
+<rectangle x1="-7.112" y1="-10.287" x2="7.112" y2="1.524" layer="39"/>
+<text x="-6.35" y="1.524" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
+<wire x1="-6.35" y1="0.762" x2="-6.35" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-6.604" y1="-1.524" x2="6.604" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="6.604" y1="-1.524" x2="6.604" y2="-9.779" width="0.127" layer="21"/>
+<wire x1="6.604" y1="-9.779" x2="-6.604" y2="-9.779" width="0.127" layer="21"/>
+<wire x1="-6.604" y1="-9.779" x2="-6.604" y2="-1.524" width="0.127" layer="21"/>
+<rectangle x1="-5.3848" y1="-1.524" x2="-4.7752" y2="-1.016" layer="21"/>
+<rectangle x1="-2.8448" y1="-1.524" x2="-2.2352" y2="-1.016" layer="21"/>
+<rectangle x1="-0.3048" y1="-1.524" x2="0.3048" y2="-1.016" layer="21"/>
+<rectangle x1="2.2352" y1="-1.524" x2="2.8448" y2="-1.016" layer="21"/>
+<rectangle x1="4.7752" y1="-1.524" x2="5.3848" y2="-1.016" layer="21"/>
+<rectangle x1="-6.096" y1="-1.016" x2="6.096" y2="1.016" layer="40"/>
+<wire x1="-6.604" y1="-1.524" x2="-6.604" y2="-9.779" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="-9.779" x2="6.604" y2="-9.779" width="0.127" layer="51"/>
+<wire x1="6.604" y1="-9.779" x2="6.604" y2="-1.524" width="0.127" layer="51"/>
+<wire x1="6.604" y1="-1.524" x2="-6.604" y2="-1.524" width="0.127" layer="51"/>
+<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="0.254" layer="51"/>
+<circle x="-5.08" y="0" radius="0.508" width="0.127" layer="51"/>
+<circle x="-2.54" y="0" radius="0.508" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="0.508" width="0.127" layer="51"/>
+<circle x="2.54" y="0" radius="0.508" width="0.127" layer="51"/>
+<circle x="5.08" y="0" radius="0.508" width="0.127" layer="51"/>
+<wire x1="-5.715" y1="0.635" x2="-5.715" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-5.715" y1="-0.635" x2="-4.445" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-4.445" y1="-0.635" x2="-4.445" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-4.445" y1="0.635" x2="-5.715" y2="0.635" width="0.127" layer="51"/>
+</package>
+<package name="HOLE_3.5MM_NORESTRICT">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<circle x="0" y="0" radius="3.8" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.5"/>
+<circle x="0" y="0" radius="2.159" width="0.127" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_0.1_5X1">
@@ -590,6 +597,11 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <technology name=""/>
 </technologies>
 </device>
+<device name="_#6_NORESTRICT" package="HOLE_3.5MM_NORESTRICT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -617,10 +629,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value="1"/>
 </part>
-<part name="J3" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0703-001">
-<attribute name="MPN" value=""/>
-<attribute name="POPULATE" value="1"/>
-</part>
 <part name="J4" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0702-001">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value="1"/>
@@ -628,16 +636,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="FUD1" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FUD2" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FUD3" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
-<part name="H2" library="jetperch" deviceset="HOLE" device="_#6"/>
-<part name="H3" library="jetperch" deviceset="HOLE" device="_#6"/>
+<part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT"/>
+<part name="H3" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Binding Posts</text>
 <text x="266.7" y="6.35" size="3.175" layer="97">B</text>
-<text x="99.06" y="198.12" size="2.54" layer="97" align="center">-  IN  +</text>
-<text x="165.1" y="198.12" size="2.54" layer="97" align="center">-  OUT  +</text>
+<text x="127" y="198.12" size="2.54" layer="97" align="center">+            -</text>
+<text x="127" y="203.2" size="2.54" layer="97" align="center">AMMETER</text>
+<text x="99.06" y="203.2" size="2.54" layer="97" align="center">VOLTMETER</text>
+<text x="99.06" y="198.12" size="2.54" layer="97" align="center">-            +</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -664,17 +674,11 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="NAME" x="114.808" y="195.326" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="112.268" y="195.326" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="J3" gate="G$1" x="149.86" y="198.12" smashed="yes" rot="R270">
-<attribute name="MPN" x="149.86" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="149.86" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="150.368" y="195.326" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="147.828" y="195.326" size="1.27" layer="96" rot="R270"/>
-</instance>
-<instance part="J4" gate="G$1" x="177.8" y="198.12" smashed="yes" rot="R270">
-<attribute name="MPN" x="177.8" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="177.8" y="198.12" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="178.308" y="195.326" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="175.768" y="195.326" size="1.27" layer="96" rot="R270"/>
+<instance part="J4" gate="G$1" x="139.7" y="198.12" smashed="yes" rot="R270">
+<attribute name="MPN" x="139.7" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATE" x="139.7" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="140.208" y="195.326" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="137.668" y="195.326" size="1.27" layer="96" rot="R270"/>
 </instance>
 <instance part="FUD1" gate="G$1" x="7.62" y="205.74" smashed="yes"/>
 <instance part="FUD2" gate="G$1" x="12.7" y="205.74" smashed="yes"/>
@@ -706,10 +710,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="55.88" y="154.94" size="1.27" layer="95"/>
 <wire x1="86.36" y1="154.94" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="193.04" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<junction x="86.36" y="154.94"/>
 </segment>
 </net>
 <net name="EXT_OUT" class="0">
@@ -721,9 +721,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="53.34" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
 <junction x="53.34" y="149.86"/>
 <label x="55.88" y="149.86" size="1.27" layer="95"/>
-<wire x1="53.34" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="149.86" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="149.86" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="149.86" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
