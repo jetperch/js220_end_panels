@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -160,13 +160,13 @@
 </layers>
 <board>
 <plain>
-<text x="28.45" y="18.5" size="3" layer="29" font="vector" ratio="20" distance="25" align="center">Voltage
--   +</text>
-<text x="47.5" y="18.5" size="3" layer="29" font="vector" ratio="20" distance="25" align="center">Current
-+   -</text>
+<text x="28.45" y="18.5" size="3" layer="29" font="vector" ratio="20" distance="40" align="center">Voltage
+-    +</text>
+<text x="66.55" y="18.5" size="3" layer="29" font="vector" ratio="20" distance="40" align="center">Current
++    -</text>
 <text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220 Binding Post Front Panel
-Rev A
-2021 Jetperch LLC</text>
+Rev C
+2022 Jetperch LLC</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-6.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="18.925" y1="12.35" x2="37.975" y2="12.35" x3="28.45" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal"/>
@@ -177,15 +177,7 @@ Rev A
 <text x="43.18" y="-10.16" size="1.778" layer="153">All dimensions in millimeters</text>
 <wire x1="3" y1="8.68" x2="15" y2="8.68" width="0.254" layer="22"/>
 <wire x1="3" y1="7.78" x2="44" y2="7.78" width="0.127" layer="22" style="shortdash"/>
-<wire x1="4" y1="6.88" x2="40" y2="6.88" width="0.254" layer="22"/>
-<wire x1="70.245" y1="16.33" x2="70.245" y2="8.98" width="0" layer="20"/>
-<wire x1="70.245" y1="8.98" x2="81.905" y2="8.98" width="0" layer="20"/>
-<wire x1="81.905" y1="8.98" x2="81.905" y2="16.33" width="0" layer="20"/>
-<wire x1="81.905" y1="16.33" x2="78.5" y2="16.33" width="0" layer="20"/>
-<wire x1="78.5" y1="16.33" x2="78.5" y2="17.33" width="0" layer="20"/>
-<wire x1="78.5" y1="17.33" x2="73.65" y2="17.33" width="0" layer="20"/>
-<wire x1="73.65" y1="17.33" x2="73.65" y2="16.33" width="0" layer="20"/>
-<wire x1="73.65" y1="16.33" x2="70.245" y2="16.33" width="0" layer="20"/>
+<wire x1="4" y1="6.88" x2="42" y2="6.88" width="0.254" layer="22"/>
 <wire x1="0" y1="12.35" x2="12.35" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="12.35" y1="0" x2="82.65" y2="0" width="0" layer="20"/>
 <wire x1="82.65" y1="0" x2="95" y2="12.35" width="0" layer="20" curve="90"/>
@@ -194,32 +186,23 @@ Rev A
 <wire x1="12.35" y1="24.7" x2="0" y2="12.35" width="0" layer="20" curve="90"/>
 <text x="28.45" y="8.968" size="1.5" layer="29" font="vector" ratio="20" align="center">Status</text>
 <hole x="28.45" y="12.5" drill="3.3"/>
-<wire x1="62" y1="8.68" x2="92" y2="8.68" width="0.254" layer="22"/>
-<wire x1="55" y1="6.88" x2="91" y2="6.88" width="0.254" layer="22"/>
-<wire x1="24" y1="8.68" x2="33" y2="8.68" width="0.254" layer="22"/>
-<wire x1="46" y1="8.68" x2="49" y2="8.68" width="0.254" layer="22"/>
+<wire x1="61" y1="8.68" x2="72" y2="8.68" width="0.254" layer="22"/>
+<wire x1="53" y1="6.88" x2="91" y2="6.88" width="0.254" layer="22"/>
+<wire x1="23" y1="8.68" x2="34" y2="8.68" width="0.254" layer="22"/>
 <wire x1="51" y1="7.78" x2="92" y2="7.78" width="0.127" layer="22" style="shortdash"/>
 <dimension x1="47.5" y1="26.6" x2="76.075" y2="12.655" x3="61.7875" y3="36" textsize="1.778" layer="47" dtype="horizontal" precision="3"/>
-<text x="76.075" y="8.255" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="SR90" align="center-right">Gnd
-In1
-In3
-Out1</text>
-<text x="76.075" y="18.034" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="SR90" align="center-left">Vref
-In0
-In2
-Out0</text>
 <wire x1="21.75" y1="20" x2="20.425" y2="20" width="0.254" layer="29"/>
 <wire x1="20.425" y1="20" x2="19.425" y2="19" width="0.254" layer="29"/>
 <wire x1="19.425" y1="19" x2="19.425" y2="18" width="0.254" layer="29"/>
 <wire x1="35.6" y1="20" x2="36.475" y2="20" width="0.254" layer="29"/>
 <wire x1="36.475" y1="20" x2="37.475" y2="19" width="0.254" layer="29"/>
 <wire x1="37.475" y1="19" x2="37.475" y2="18" width="0.254" layer="29"/>
-<wire x1="40.4" y1="20" x2="39.475" y2="20" width="0.254" layer="29"/>
-<wire x1="39.475" y1="20" x2="38.475" y2="19" width="0.254" layer="29"/>
-<wire x1="38.475" y1="19" x2="38.475" y2="18" width="0.254" layer="29"/>
-<wire x1="54.2" y1="20" x2="55.525" y2="20" width="0.254" layer="29"/>
-<wire x1="55.525" y1="20" x2="56.525" y2="19" width="0.254" layer="29"/>
-<wire x1="56.525" y1="19" x2="56.525" y2="18" width="0.254" layer="29"/>
+<wire x1="59.45" y1="20" x2="58.525" y2="20" width="0.254" layer="29"/>
+<wire x1="58.525" y1="20" x2="57.525" y2="19" width="0.254" layer="29"/>
+<wire x1="57.525" y1="19" x2="57.525" y2="18" width="0.254" layer="29"/>
+<wire x1="73.25" y1="20" x2="74.575" y2="20" width="0.254" layer="29"/>
+<wire x1="74.575" y1="20" x2="75.575" y2="19" width="0.254" layer="29"/>
+<wire x1="75.575" y1="19" x2="75.575" y2="18" width="0.254" layer="29"/>
 <polygon width="0.254" layer="30">
 <vertex x="47.5" y="0"/>
 <vertex x="47.5" y="1.25"/>
@@ -244,127 +227,183 @@ Out0</text>
 <vertex x="12.35" y="1.25"/>
 <vertex x="47.5" y="1.25"/>
 </polygon>
-<text x="18.925" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Black</text>
-<text x="37.975" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Red</text>
-<text x="57.025" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Yellow</text>
+<text x="18.925" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">J1
+Black</text>
+<text x="37.975" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">J2
+Red</text>
+<text x="76.075" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">J4
+Yellow</text>
+<text x="57.025" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">J3
+Red</text>
+<wire x1="80" y1="8.68" x2="92" y2="8.68" width="0.254" layer="22"/>
+<text x="47.5" y="2.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Install J1-J4 on other side</text>
+<text x="28.45" y="17.6022" size="1.27" layer="29" font="vector" ratio="20" distance="25" align="center">±15V</text>
+<text x="47.5" y="3.2512" size="1.27" layer="29" font="vector" ratio="20" distance="25" align="center">Isolated
+±48V max to USB ground</text>
+<text x="66.55" y="17.6022" size="1.27" layer="29" font="vector" ratio="20" distance="25" align="center">±3A</text>
 </plain>
 <libraries>
 <library name="jetperch">
 <packages>
-<package name="CONN_0.1_5X1_MSA">
-<description>Samtec TSM-105-01-S-SV-A</description>
-<polygon width="0.01" layer="29">
-<vertex x="5.815" y="0.355"/>
-<vertex x="4.9248" y="0.355" curve="-80"/>
-<vertex x="4.345" y="-1.0405"/>
-<vertex x="4.345" y="-3.275"/>
-<vertex x="5.815" y="-3.275"/>
+<package name="CONN_0.1_3X2_MSA">
+<hole x="-1.27" y="0" drill="1.7272"/>
+<hole x="1.27" y="0" drill="1.7272"/>
+<smd name="1" x="-2.54" y="-2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="-2.54" y="2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0" y="-2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="0" y="2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="2.54" y="-2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="2.54" y="2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-4.318" y1="4.3688" x2="-4.318" y2="-4.3688" width="0.0508" layer="39"/>
+<wire x1="-4.318" y1="-4.3688" x2="4.318" y2="-4.3688" width="0.0508" layer="39"/>
+<wire x1="4.318" y1="-4.3688" x2="4.318" y2="4.3688" width="0.0508" layer="39"/>
+<wire x1="4.318" y1="4.3688" x2="-4.318" y2="4.3688" width="0.0508" layer="39"/>
+<text x="-4.064" y="-5.461" size="0.8128" layer="25" font="vector" ratio="21">&gt;NAME</text>
+<circle x="-3.81" y="-3.81" radius="0.254" width="0" layer="21"/>
+<polygon width="0.127" layer="1">
+<vertex x="-3.175" y="-4.318"/>
+<vertex x="-3.175" y="-1.397"/>
+<vertex x="-2.667" y="-0.889"/>
+<vertex x="-2.413" y="-0.889"/>
+<vertex x="-1.905" y="-1.397"/>
+<vertex x="-1.905" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="31">
-<vertex x="5.715" y="0.255"/>
-<vertex x="5.0541" y="0.255" curve="-72"/>
-<vertex x="4.445" y="-1.0999"/>
-<vertex x="4.445" y="-3.175"/>
-<vertex x="5.715" y="-3.175"/>
+<polygon width="0.127" layer="29">
+<vertex x="-3.175" y="-4.318"/>
+<vertex x="-3.175" y="-1.397"/>
+<vertex x="-2.667" y="-0.889"/>
+<vertex x="-2.413" y="-0.889"/>
+<vertex x="-1.905" y="-1.397"/>
+<vertex x="-1.905" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="1">
-<vertex x="5.715" y="0.255"/>
-<vertex x="5.0541" y="0.255" curve="-72"/>
-<vertex x="4.445" y="-1.0999"/>
-<vertex x="4.445" y="-3.175"/>
-<vertex x="5.715" y="-3.175"/>
+<polygon width="0.127" layer="31">
+<vertex x="-3.175" y="-4.318"/>
+<vertex x="-3.175" y="-1.397"/>
+<vertex x="-2.667" y="-0.889"/>
+<vertex x="-2.413" y="-0.889"/>
+<vertex x="-1.905" y="-1.397"/>
+<vertex x="-1.905" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="29">
-<vertex x="2.6952" y="-0.355"/>
-<vertex x="1.805" y="-0.355"/>
-<vertex x="1.805" y="3.275"/>
-<vertex x="3.275" y="3.275"/>
-<vertex x="3.275" y="1.0405" curve="80"/>
+<polygon width="0.127" layer="1">
+<vertex x="-0.635" y="-4.318"/>
+<vertex x="-0.635" y="-1.397"/>
+<vertex x="-0.127" y="-0.889"/>
+<vertex x="0.127" y="-0.889"/>
+<vertex x="0.635" y="-1.397"/>
+<vertex x="0.635" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.5659" y="-0.255"/>
-<vertex x="1.905" y="-0.255"/>
-<vertex x="1.905" y="3.175"/>
-<vertex x="3.175" y="3.175"/>
-<vertex x="3.175" y="1.0999" curve="72"/>
+<polygon width="0.127" layer="29">
+<vertex x="-0.635" y="-4.318"/>
+<vertex x="-0.635" y="-1.397"/>
+<vertex x="-0.127" y="-0.889"/>
+<vertex x="0.127" y="-0.889"/>
+<vertex x="0.635" y="-1.397"/>
+<vertex x="0.635" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="1">
-<vertex x="2.5659" y="-0.255"/>
-<vertex x="1.905" y="-0.255"/>
-<vertex x="1.905" y="3.175"/>
-<vertex x="3.175" y="3.175"/>
-<vertex x="3.175" y="1.0999" curve="72"/>
+<polygon width="0.127" layer="31">
+<vertex x="-0.635" y="-4.318"/>
+<vertex x="-0.635" y="-1.397"/>
+<vertex x="-0.127" y="-0.889"/>
+<vertex x="0.127" y="-0.889"/>
+<vertex x="0.635" y="-1.397"/>
+<vertex x="0.635" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.805" y="-0.355"/>
-<vertex x="-2.6952" y="-0.355" curve="80"/>
-<vertex x="-3.275" y="1.0405"/>
-<vertex x="-3.275" y="3.275"/>
-<vertex x="-1.805" y="3.275"/>
+<polygon width="0.127" layer="1">
+<vertex x="1.905" y="-4.318"/>
+<vertex x="1.905" y="-1.397"/>
+<vertex x="2.413" y="-0.889"/>
+<vertex x="2.667" y="-0.889"/>
+<vertex x="3.175" y="-1.397"/>
+<vertex x="3.175" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.905" y="-0.255"/>
-<vertex x="-2.5659" y="-0.255" curve="72"/>
-<vertex x="-3.175" y="1.0999"/>
-<vertex x="-3.175" y="3.175"/>
-<vertex x="-1.905" y="3.175"/>
+<polygon width="0.127" layer="29">
+<vertex x="1.905" y="-4.318"/>
+<vertex x="1.905" y="-1.397"/>
+<vertex x="2.413" y="-0.889"/>
+<vertex x="2.667" y="-0.889"/>
+<vertex x="3.175" y="-1.397"/>
+<vertex x="3.175" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-1.905" y="-0.255"/>
-<vertex x="-2.5659" y="-0.255" curve="72"/>
-<vertex x="-3.175" y="1.0999"/>
-<vertex x="-3.175" y="3.175"/>
-<vertex x="-1.905" y="3.175"/>
+<polygon width="0.127" layer="31">
+<vertex x="1.905" y="-4.318"/>
+<vertex x="1.905" y="-1.397"/>
+<vertex x="2.413" y="-0.889"/>
+<vertex x="2.667" y="-0.889"/>
+<vertex x="3.175" y="-1.397"/>
+<vertex x="3.175" y="-4.318"/>
 </polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-4.9248" y="0.355"/>
-<vertex x="-5.815" y="0.355"/>
-<vertex x="-5.815" y="-3.275"/>
-<vertex x="-4.345" y="-3.275"/>
-<vertex x="-4.345" y="-1.0405" curve="-80"/>
+<polygon width="0.127" layer="1">
+<vertex x="-1.905" y="4.318"/>
+<vertex x="-1.905" y="1.397"/>
+<vertex x="-2.413" y="0.889"/>
+<vertex x="-2.667" y="0.889"/>
+<vertex x="-3.175" y="1.397"/>
+<vertex x="-3.175" y="4.318"/>
 </polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-5.0541" y="0.255"/>
-<vertex x="-5.715" y="0.255"/>
-<vertex x="-5.715" y="-3.175"/>
-<vertex x="-4.445" y="-3.175"/>
-<vertex x="-4.445" y="-1.0999" curve="-72"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1.905" y="4.318"/>
+<vertex x="-1.905" y="1.397"/>
+<vertex x="-2.413" y="0.889"/>
+<vertex x="-2.667" y="0.889"/>
+<vertex x="-3.175" y="1.397"/>
+<vertex x="-3.175" y="4.318"/>
 </polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-5.0541" y="0.255"/>
-<vertex x="-5.715" y="0.255"/>
-<vertex x="-5.715" y="-3.175"/>
-<vertex x="-4.445" y="-3.175"/>
-<vertex x="-4.445" y="-1.0999" curve="-72"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1.905" y="4.318"/>
+<vertex x="-1.905" y="1.397"/>
+<vertex x="-2.413" y="0.889"/>
+<vertex x="-2.667" y="0.889"/>
+<vertex x="-3.175" y="1.397"/>
+<vertex x="-3.175" y="4.318"/>
 </polygon>
-<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="1.27" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="1.27" x2="6.35" y2="1.27" width="0.1" layer="51"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-1.27" x2="-6.35" y2="-1.27" width="0.1" layer="51"/>
-<wire x1="3.81" y1="1.27" x2="6.35" y2="1.27" width="0.2" layer="21"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.2" layer="21"/>
-<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="1.27" width="0.2" layer="21"/>
-<wire x1="-6.35" y1="1.27" x2="-3.81" y2="1.27" width="0.2" layer="21"/>
-<wire x1="-6.604" y1="-3.429" x2="-6.604" y2="1.778" width="0.05" layer="39"/>
-<wire x1="-6.604" y1="1.778" x2="-5.08" y2="1.778" width="0.0508" layer="39"/>
-<wire x1="-5.08" y1="1.778" x2="-3.683" y2="1.778" width="0.0508" layer="39"/>
-<wire x1="-3.683" y1="1.778" x2="-3.683" y2="3.429" width="0.0508" layer="39"/>
-<wire x1="-3.683" y1="3.429" x2="3.683" y2="3.429" width="0.0508" layer="39"/>
-<wire x1="3.683" y1="3.429" x2="3.683" y2="1.778" width="0.0508" layer="39"/>
-<wire x1="3.683" y1="1.778" x2="5.08" y2="1.778" width="0.0508" layer="39"/>
-<wire x1="5.08" y1="1.778" x2="6.604" y2="1.778" width="0.0508" layer="39"/>
-<wire x1="6.604" y1="1.778" x2="6.604" y2="-3.429" width="0.0508" layer="39"/>
-<wire x1="6.604" y1="-3.429" x2="-6.604" y2="-3.429" width="0.05" layer="39"/>
-<text x="3.683" y="2.031" size="0.8128" layer="25" font="vector" ratio="21">&gt;NAME</text>
-<circle x="6.346" y="-3.173" radius="0.1" width="0.2" layer="21"/>
-<circle x="6.346" y="-3.173" radius="0.1016" width="0.2" layer="51"/>
-<smd name="01" x="5.08" y="-1.46" dx="0.5" dy="0.5" layer="1"/>
-<smd name="02" x="2.54" y="1.46" dx="0.5" dy="0.5" layer="1"/>
-<smd name="03" x="0" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
-<smd name="04" x="-2.54" y="1.46" dx="0.5" dy="0.5" layer="1"/>
-<smd name="05" x="-5.08" y="-1.46" dx="0.5" dy="0.5" layer="1"/>
-<hole x="-3.81" y="0" drill="1.78"/>
-<hole x="3.81" y="0" drill="1.78"/>
+<polygon width="0.127" layer="1">
+<vertex x="0.635" y="4.318"/>
+<vertex x="0.635" y="1.397"/>
+<vertex x="0.127" y="0.889"/>
+<vertex x="-0.127" y="0.889"/>
+<vertex x="-0.635" y="1.397"/>
+<vertex x="-0.635" y="4.318"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.635" y="4.318"/>
+<vertex x="0.635" y="1.397"/>
+<vertex x="0.127" y="0.889"/>
+<vertex x="-0.127" y="0.889"/>
+<vertex x="-0.635" y="1.397"/>
+<vertex x="-0.635" y="4.318"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.635" y="4.318"/>
+<vertex x="0.635" y="1.397"/>
+<vertex x="0.127" y="0.889"/>
+<vertex x="-0.127" y="0.889"/>
+<vertex x="-0.635" y="1.397"/>
+<vertex x="-0.635" y="4.318"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="3.175" y="4.318"/>
+<vertex x="3.175" y="1.397"/>
+<vertex x="2.667" y="0.889"/>
+<vertex x="2.413" y="0.889"/>
+<vertex x="1.905" y="1.397"/>
+<vertex x="1.905" y="4.318"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.175" y="4.318"/>
+<vertex x="3.175" y="1.397"/>
+<vertex x="2.667" y="0.889"/>
+<vertex x="2.413" y="0.889"/>
+<vertex x="1.905" y="1.397"/>
+<vertex x="1.905" y="4.318"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="3.175" y="4.318"/>
+<vertex x="3.175" y="1.397"/>
+<vertex x="2.667" y="0.889"/>
+<vertex x="2.413" y="0.889"/>
+<vertex x="1.905" y="1.397"/>
+<vertex x="1.905" y="4.318"/>
+</polygon>
 </package>
 <package name="BINDING_POST_6">
 <pad name="1" x="0" y="0" drill="3.7592" diameter="8.89"/>
@@ -579,22 +618,22 @@ These design rules are for standard two layer Jetperch designs.
 </pass>
 </autorouter>
 <elements>
-<element name="J5" library="jetperch" package="CONN_0.1_5X1_MSA" value="TSM-105-01-S-SV" x="47.5" y="5.7" smashed="yes" rot="MR0">
-<attribute name="MPN" value="TSM-105-01-S-SV" x="47.5" y="5.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="45.642" y="3.03" size="0.8128" layer="26" font="vector" ratio="22" rot="MR0"/>
-<attribute name="POPULATE" value="1" x="47.5" y="5.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J5" library="jetperch" package="CONN_0.1_3X2_MSA" value="TSM-105-01-L-SV-A" x="47.5" y="11.0565" smashed="yes" rot="MR0">
+<attribute name="MPN" value="TSM-105-01-L-SV-A" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="51.642" y="5.3865" size="0.8128" layer="26" font="vector" ratio="22" rot="MR0"/>
+<attribute name="POPULATE" value="1" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J1" library="jetperch" package="BINDING_POST_6" value="111-0703-001" x="18.925" y="12.35" smashed="yes">
-<attribute name="MPN" value="" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="111-0703-001" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J2" library="jetperch" package="BINDING_POST_6" value="111-0702-001" x="37.975" y="12.35" smashed="yes">
-<attribute name="MPN" value="" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATE" value="1" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
-</element>
-<element name="J4" library="jetperch" package="BINDING_POST_6" value="111-0702-001" x="57.025" y="12.35" smashed="yes">
-<attribute name="MPN" value="" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
+<element name="J3" library="jetperch" package="BINDING_POST_6" value="111-0702-001" x="57.025" y="12.35" smashed="yes">
+<attribute name="MPN" value="111-0702-001" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J4" library="jetperch" package="BINDING_POST_6" value="111-0707-001" x="76.075" y="12.35" smashed="yes">
+<attribute name="MPN" value="111-0707-001" x="76.075" y="12.35" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATE" value="1" x="76.075" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FUD1" library="jetperch" package="FIDUCIAL_1MM_2MM" value="FIDUCIAL_1MM" x="7.79" y="3.79" smashed="yes" rot="MR0">
 <attribute name="POPULATE" value="0" x="7.79" y="3.79" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -607,44 +646,74 @@ These design rules are for standard two layer Jetperch designs.
 </element>
 <element name="H2" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="3.79" y="12.35" smashed="yes"/>
 <element name="H3" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="91.21" y="12.35" smashed="yes"/>
+<element name="J2" library="jetperch" package="BINDING_POST_6" value="111-0702-001" x="37.975" y="12.35" smashed="yes">
+<attribute name="MPN" value="111-0702-001" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATE" value="1" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
-<signal name="EXT_IN">
-<contactref element="J5" pad="02"/>
-<contactref element="J5" pad="01"/>
-<contactref element="J2" pad="1"/>
-<polygon width="0.127" layer="16" isolate="0.254" thermals="no">
-<vertex x="34.9398" y="12.9398"/>
-<vertex x="34.9398" y="9.1872"/>
-<vertex x="41.5334" y="2.5936"/>
-<vertex x="43.0856" y="2.5936"/>
-<vertex x="45.5508" y="5.0588"/>
-<vertex x="45.5508" y="10.9666"/>
-<vertex x="41.0762" y="15.4412"/>
-<vertex x="37.4412" y="15.4412"/>
+<signal name="I+">
+<contactref element="J3" pad="1"/>
+<contactref element="J5" pad="1"/>
+<contactref element="J5" pad="2"/>
+<wire x1="50.04" y1="13.5965" x2="55.7785" y2="13.5965" width="0.254" layer="16"/>
+<wire x1="55.7785" y1="13.5965" x2="57.025" y2="12.35" width="0.254" layer="16"/>
+<wire x1="50.04" y1="8.5165" x2="53.1915" y2="8.5165" width="0.254" layer="16"/>
+<wire x1="53.1915" y1="8.5165" x2="57.025" y2="12.35" width="0.254" layer="16"/>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="49.657" y="6.858"/>
+<vertex x="57.531" y="6.858"/>
+<vertex x="59.436" y="8.763"/>
+<vertex x="59.436" y="14.478"/>
+<vertex x="57.277" y="16.637"/>
+<vertex x="50.8" y="16.637"/>
+<vertex x="49.53" y="15.367"/>
+<vertex x="49.53" y="13.208"/>
+<vertex x="50.292" y="12.446"/>
+<vertex x="50.292" y="9.906"/>
+<vertex x="49.657" y="9.271"/>
 </polygon>
 </signal>
-<signal name="EXT_NEG">
-<contactref element="J5" pad="03"/>
+<signal name="V-">
 <contactref element="J1" pad="1"/>
-<wire x1="47.5" y1="4.24" x2="47.5" y2="14.984" width="0.4064" layer="16"/>
-<wire x1="26.641" y1="20.066" x2="18.925" y2="12.35" width="0.4064" layer="16"/>
-<wire x1="47.5" y1="14.984" x2="42.418" y2="20.066" width="0.4064" layer="16"/>
-<wire x1="42.418" y1="20.066" x2="26.641" y2="20.066" width="0.4064" layer="16"/>
+<contactref element="J5" pad="5"/>
+<wire x1="44.96" y1="6.322" x2="42.829" y2="4.191" width="1.27" layer="16"/>
+<wire x1="42.829" y1="4.191" x2="27.084" y2="4.191" width="1.27" layer="16"/>
+<wire x1="27.084" y1="4.191" x2="18.925" y2="12.35" width="1.27" layer="16"/>
+<wire x1="44.96" y1="8.5165" x2="44.96" y2="6.322" width="1.27" layer="16"/>
 </signal>
-<signal name="EXT_OUT">
-<contactref element="J5" pad="05"/>
-<contactref element="J5" pad="04"/>
+<signal name="I-">
 <contactref element="J4" pad="1"/>
-<polygon width="0.127" layer="16" isolate="0.254" thermals="no">
-<vertex x="49.4538" y="5.0292"/>
-<vertex x="49.4538" y="11.0188"/>
-<vertex x="53.913" y="15.478"/>
-<vertex x="56.658" y="15.478"/>
-<vertex x="59.998" y="12.138"/>
-<vertex x="59.998" y="9.0964"/>
-<vertex x="53.4924" y="2.5908"/>
-<vertex x="51.8922" y="2.5908"/>
+<contactref element="J5" pad="4"/>
+<contactref element="J5" pad="3"/>
+<wire x1="47.5" y1="8.5165" x2="47.5" y2="5.5" width="0.254" layer="16"/>
+<wire x1="47.5" y1="5.5" x2="48" y2="5" width="0.254" layer="16"/>
+<wire x1="48" y1="5" x2="68.725" y2="5" width="0.254" layer="16"/>
+<wire x1="68.725" y1="5" x2="76.075" y2="12.35" width="0.254" layer="16"/>
+<wire x1="47.5" y1="13.5965" x2="47.5" y2="17.5" width="0.254" layer="16"/>
+<wire x1="49" y1="19" x2="47.5" y2="17.5" width="0.254" layer="16"/>
+<wire x1="76.075" y1="12.35" x2="69.425" y2="19" width="0.254" layer="16"/>
+<wire x1="69.425" y1="19" x2="49" y2="19" width="0.254" layer="16"/>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="46.99" y="14.732"/>
+<vertex x="46.99" y="19.431"/>
+<vertex x="49.149" y="21.59"/>
+<vertex x="72.898" y="21.59"/>
+<vertex x="79.121" y="15.367"/>
+<vertex x="79.121" y="9.398"/>
+<vertex x="72.136" y="2.413"/>
+<vertex x="48.895" y="2.413"/>
+<vertex x="46.99" y="4.318"/>
+<vertex x="46.99" y="7.112"/>
+<vertex x="47.806" y="7.112"/>
+<vertex x="49.33" y="5.588"/>
+<vertex x="60.325" y="5.588"/>
+<vertex x="63.627" y="8.89"/>
+<vertex x="63.627" y="15.24"/>
+<vertex x="60.933" y="17.934"/>
+<vertex x="50.573" y="17.934"/>
+<vertex x="47.879" y="15.24"/>
+<vertex x="47.879" y="14.732"/>
 </polygon>
 </signal>
 <signal name="CGND">
@@ -705,6 +774,12 @@ These design rules are for standard two layer Jetperch designs.
 <vertex x="82.65" y="0"/>
 </polygon>
 </signal>
+<signal name="V+">
+<contactref element="J5" pad="6"/>
+<contactref element="J2" pad="1"/>
+<wire x1="44.96" y1="13.5965" x2="39.2215" y2="13.5965" width="1.27" layer="16"/>
+<wire x1="39.2215" y1="13.5965" x2="37.975" y2="12.35" width="1.27" layer="16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -713,12 +788,6 @@ These design rules are for standard two layer Jetperch designs.
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="4,16,0d825074789df06b"/>
-<approved hash="4,16,cc70ef22723c60a2"/>
-<approved hash="4,16,25592738ffc7c68c"/>
-<approved hash="4,16,c46bc362a31b98f9"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
