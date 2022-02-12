@@ -637,7 +637,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Binding Posts</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">C</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">B</text>
 <text x="144.78" y="198.12" size="2.54" layer="97" align="center">+            -</text>
 <text x="144.78" y="203.2" size="2.54" layer="97" align="center">AMMETER</text>
 <text x="93.98" y="203.2" size="2.54" layer="97" align="center">VOLTMETER</text>

@@ -165,7 +165,7 @@
 <text x="66.55" y="18.5" size="3" layer="29" font="vector" ratio="20" distance="40" align="center">Current
 +    -</text>
 <text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220 Binding Post Front Panel
-Rev C
+Rev B
 2022 Jetperch LLC</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-6.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
@@ -236,7 +236,7 @@ Yellow</text>
 <text x="57.025" y="5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">J3
 Red</text>
 <wire x1="80" y1="8.68" x2="92" y2="8.68" width="0.254" layer="22"/>
-<text x="47.5" y="2.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Install J1-J4 on other side</text>
+<text x="47.5" y="2.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Install J1-J4 with nut on this side</text>
 <text x="28.45" y="17.6022" size="1.27" layer="29" font="vector" ratio="20" distance="25" align="center">±15V</text>
 <text x="47.5" y="3.2512" size="1.27" layer="29" font="vector" ratio="20" distance="25" align="center">Isolated
 ±48V max to USB ground</text>
