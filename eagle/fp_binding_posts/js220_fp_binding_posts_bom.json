@@ -1,16 +1,18 @@
 {
+  "H1": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
   "H2": {
     "value": "HOLE_#6_NORESTRICT",
     "device": "HOLE_#6_NORESTRICT",
     "sheet": 1,
     "attributes": {
-    }
-  },
-  "H3": {
-    "value": "HOLE_#6_NORESTRICT",
-    "device": "HOLE_#6_NORESTRICT",
-    "sheet": 1,
-    "attributes": {
+      "POPULATE": "0"
     }
   },
   "J1": {
@@ -55,6 +57,15 @@
     "sheet": 1,
     "attributes": {
       "MPN": "TSM-105-01-L-SV-A",
+      "POPULATE": "1"
+    }
+  },
+  "PCB1": {
+    "value": "JS220_fp_bp_pcb_revB",
+    "device": "PCB",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "JS220_fp_bp_pcb_revB",
       "POPULATE": "1"
     }
   }

@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -160,8 +160,8 @@
 </layers>
 <board>
 <plain>
-<text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220 Back Panel
-Rev B
+<text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220_ep_pcb_revB
+JS220 End Panel, Rev B
 2022 Jetperch LLC</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-6.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
@@ -178,7 +178,8 @@ Rev B
 <wire x1="95" y1="12.35" x2="82.65" y2="24.7" width="0" layer="20" curve="90"/>
 <wire x1="82.65" y1="24.7" x2="12.35" y2="24.7" width="0" layer="20"/>
 <wire x1="12.35" y1="24.7" x2="0" y2="12.35" width="0" layer="20" curve="90"/>
-<text x="38.75" y="20" size="1.5" layer="29" font="vector" ratio="20" align="center">Status</text>
+<text x="38.75" y="17" size="1.27" layer="29" font="vector" ratio="20" align="center">Controller
+Status</text>
 <hole x="38.75" y="12.5" drill="3.3"/>
 <wire x1="74" y1="8.68" x2="92" y2="8.68" width="0.254" layer="22"/>
 <wire x1="72" y1="6.88" x2="91" y2="6.88" width="0.254" layer="22"/>
@@ -222,13 +223,12 @@ Rev B
 <wire x1="69.12" y1="17.465" x2="69.12" y2="5.645" width="0" layer="20"/>
 <wire x1="69.12" y1="5.645" x2="66.32" y2="5.645" width="0" layer="20"/>
 <wire x1="66.32" y1="5.645" x2="66.32" y2="17.465" width="0" layer="20"/>
-<text x="47.5" y="20" size="1.5" layer="29" font="vector" ratio="20" align="center">USB</text>
-<text x="67.72" y="20" size="1.5" layer="29" font="vector" ratio="20" align="center">Trigger
-In/Out</text>
-<text x="67.72" y="2" size="1" layer="29" font="vector" ratio="20" align="bottom-center">Out: 3.3V, 50 Ω
+<text x="47.5" y="13.6" size="2" layer="29" font="vector" ratio="20" align="center">USB</text>
+<text x="67.72" y="19.6" size="2" layer="29" font="vector" ratio="20" align="center">Trigger</text>
+<text x="67.72" y="3.5" size="1" layer="29" font="vector" ratio="20" distance="40" align="center">Out: 3.3V, 50 Ω
 In: TTL &amp; 3.3V compatible</text>
-<text x="47.5" y="2" size="1" layer="29" font="vector" ratio="20" align="bottom-center">To host computer
-</text>
+<text x="47.5" y="3.5" size="1" layer="29" font="vector" ratio="20" align="center">GPIO and trigger are
+referenced to USB ground</text>
 <wire x1="20.23" y1="9.58" x2="34.33" y2="9.58" width="0" layer="20"/>
 <wire x1="34.33" y1="9.58" x2="34.33" y2="16.58" width="0" layer="20"/>
 <wire x1="34.33" y1="16.58" x2="30.03" y2="16.58" width="0" layer="20"/>
@@ -237,17 +237,20 @@ In: TTL &amp; 3.3V compatible</text>
 <wire x1="24.53" y1="17.93" x2="24.53" y2="16.58" width="0" layer="20"/>
 <wire x1="24.53" y1="16.58" x2="20.23" y2="16.58" width="0" layer="20"/>
 <wire x1="20.23" y1="16.58" x2="20.23" y2="9.58" width="0" layer="20"/>
-<text x="27.28" y="3.49" size="1.5" layer="29" font="vector" ratio="20" align="center">GPIO</text>
-<text x="27.28" y="8.98" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="R90" align="center-right">GND
-IN1
+<text x="27.28" y="3.5" size="2" layer="29" font="vector" ratio="20" align="center">GPIO</text>
+<text x="27.28" y="8.98" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="SR270" align="center-left">OUT1
+GND
 IN3
+IN1
+GND</text>
+<text x="27.28" y="18.54" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="SR270" align="center-right">OUT0
 GND
-OUT1</text>
-<text x="27.28" y="18.54" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="R90" align="center-left">Vref
-IN0
 IN2
-GND
-OUT0</text>
+IN0
+Vref</text>
+<text x="17.573" y="-22.892" size="1.778" layer="153">Place all markings on back (including pcb order number). 
+Add flammability rating marking on back, such as 94V-0. 
+The front-side surface is cosmetic - reject units with scratches and blemishes.</text>
 </plain>
 <libraries>
 <library name="jetperch">
@@ -450,8 +453,12 @@ These design rules are for standard two layer Jetperch designs.
 </pass>
 </autorouter>
 <elements>
-<element name="H2" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="3.79" y="12.35" smashed="yes"/>
-<element name="H3" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="91.21" y="12.35" smashed="yes"/>
+<element name="H1" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="3.79" y="12.35" smashed="yes">
+<attribute name="POPULATE" value="0" x="3.79" y="12.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H2" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="91.21" y="12.35" smashed="yes">
+<attribute name="POPULATE" value="0" x="91.21" y="12.35" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="CGND">

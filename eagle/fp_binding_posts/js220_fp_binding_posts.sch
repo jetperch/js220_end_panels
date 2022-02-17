@@ -500,6 +500,15 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <symbol name="STAND-OFF">
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="PCB">
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.27" layer="94" align="center">PCB</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="3.048" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CONN_0.1_3X2" prefix="J" uservalue="yes">
@@ -594,6 +603,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </device>
 </devices>
 </deviceset>
+<deviceset name="PCB" prefix="PCB" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PCB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -626,10 +647,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="FUD1" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FUD2" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FUD3" library="jetperch" deviceset="FIDUCIAL" device="_1MM"/>
-<part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT"/>
-<part name="H3" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT"/>
+<part name="H1" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT">
+<attribute name="POPULATE" value="0"/>
+</part>
+<part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT">
+<attribute name="POPULATE" value="0"/>
+</part>
 <part name="J2" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0702-001">
 <attribute name="MPN" value="111-0702-001"/>
+<attribute name="POPULATE" value="1"/>
+</part>
+<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_bp_pcb_revB">
+<attribute name="MPN" value="JS220_fp_bp_pcb_revB"/>
 <attribute name="POPULATE" value="1"/>
 </part>
 </parts>
@@ -677,13 +706,23 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="FUD1" gate="G$1" x="7.62" y="205.74" smashed="yes"/>
 <instance part="FUD2" gate="G$1" x="12.7" y="205.74" smashed="yes"/>
 <instance part="FUD3" gate="G$1" x="17.78" y="205.74" smashed="yes"/>
-<instance part="H2" gate="G$1" x="7.62" y="200.66" smashed="yes"/>
-<instance part="H3" gate="G$1" x="12.7" y="200.66" smashed="yes"/>
+<instance part="H1" gate="G$1" x="7.62" y="200.66" smashed="yes">
+<attribute name="POPULATE" x="7.62" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H2" gate="G$1" x="12.7" y="200.66" smashed="yes">
+<attribute name="POPULATE" x="12.7" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J2" gate="G$1" x="106.68" y="198.12" smashed="yes" rot="R270">
 <attribute name="MPN" x="106.68" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATE" x="106.68" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="107.188" y="195.326" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="104.648" y="195.326" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="PCB1" gate="G$1" x="12.7" y="193.04" smashed="yes">
+<attribute name="VALUE" x="7.62" y="187.96" size="1.27" layer="96"/>
+<attribute name="NAME" x="7.62" y="196.088" size="1.27" layer="95"/>
+<attribute name="POPULATE" x="12.7" y="193.04" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="12.7" y="193.04" size="1.27" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

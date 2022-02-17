@@ -242,6 +242,15 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <symbol name="STAND-OFF">
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="PCB">
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.27" layer="94" align="center">PCB</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="3.048" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HOLE" prefix="H">
@@ -261,6 +270,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </device>
 </devices>
 </deviceset>
+<deviceset name="PCB" prefix="PCB" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PCB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -274,8 +295,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="PG1"/>
-<part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT"/>
-<part name="H3" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT"/>
+<part name="H1" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT">
+<attribute name="POPULATE" value="0"/>
+</part>
+<part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT">
+<attribute name="POPULATE" value="0"/>
+</part>
+<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_ep_pcb_revB">
+<attribute name="MPN" value="JS220_fp_bp_pcb_revB"/>
+<attribute name="POPULATE" value="1"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -290,8 +319,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="H2" gate="G$1" x="7.62" y="200.66" smashed="yes"/>
-<instance part="H3" gate="G$1" x="12.7" y="200.66" smashed="yes"/>
+<instance part="H1" gate="G$1" x="7.62" y="200.66" smashed="yes">
+<attribute name="POPULATE" x="7.62" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="H2" gate="G$1" x="12.7" y="200.66" smashed="yes">
+<attribute name="POPULATE" x="12.7" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PCB1" gate="G$1" x="12.7" y="190.5" smashed="yes">
+<attribute name="VALUE" x="7.62" y="185.42" size="1.27" layer="96"/>
+<attribute name="NAME" x="7.62" y="193.548" size="1.27" layer="95"/>
+<attribute name="POPULATE" x="12.7" y="190.5" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="12.7" y="190.5" size="1.27" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

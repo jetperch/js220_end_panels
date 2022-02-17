@@ -1,0 +1,27 @@
+{
+  "H1": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H2": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "PCB1": {
+    "value": "JS220_ep_pcb_revB",
+    "device": "PCB",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "JS220_fp_bp_pcb_revB",
+      "POPULATE": "1"
+    }
+  }
+}
