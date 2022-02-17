@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -165,7 +165,7 @@ Rev B
 2022 Jetperch LLC</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-6.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="37.975" y1="12.35" x2="47.5" y2="26.6" x3="42.7375" y3="28.984990625" textsize="1.778" layer="47" dtype="horizontal" precision="3"/>
+<dimension x1="38.75" y1="12.35" x2="47.5" y2="26.6" x3="43.125" y3="28.984990625" textsize="1.778" layer="47" dtype="horizontal" precision="3"/>
 <dimension x1="47.5" y1="26.6" x2="27.28" y2="12.5" x3="37.39" y3="33.21" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="26.6" x2="47.5" y2="26.6" x3="23.75" y3="36.794990625" textsize="1.778" layer="47"/>
 <text x="43.18" y="-10.16" size="1.778" layer="153">All dimensions in millimeters</text>
@@ -178,13 +178,13 @@ Rev B
 <wire x1="95" y1="12.35" x2="82.65" y2="24.7" width="0" layer="20" curve="90"/>
 <wire x1="82.65" y1="24.7" x2="12.35" y2="24.7" width="0" layer="20"/>
 <wire x1="12.35" y1="24.7" x2="0" y2="12.35" width="0" layer="20" curve="90"/>
-<text x="27.28" y="20" size="1.5" layer="29" font="vector" ratio="20" align="center">Status</text>
-<hole x="27.28" y="12.5" drill="3.3"/>
+<text x="38.75" y="20" size="1.5" layer="29" font="vector" ratio="20" align="center">Status</text>
+<hole x="38.75" y="12.5" drill="3.3"/>
 <wire x1="74" y1="8.68" x2="92" y2="8.68" width="0.254" layer="22"/>
 <wire x1="72" y1="6.88" x2="91" y2="6.88" width="0.254" layer="22"/>
 <wire x1="53" y1="8.68" x2="62" y2="8.68" width="0.254" layer="22"/>
 <wire x1="73" y1="7.78" x2="92" y2="7.78" width="0.127" layer="22" style="shortdash"/>
-<dimension x1="47.5" y1="26.6" x2="76.075" y2="12.655" x3="61.7875" y3="36" textsize="1.778" layer="47" dtype="horizontal" precision="3"/>
+<dimension x1="47.5" y1="26.6" x2="67.72" y2="12.655" x3="57.61" y3="36" textsize="1.778" layer="47" dtype="horizontal" precision="3"/>
 <polygon width="0.254" layer="30">
 <vertex x="47.5" y="0"/>
 <vertex x="47.5" y="1.25"/>
@@ -210,11 +210,11 @@ Rev B
 <vertex x="47.5" y="1.25"/>
 </polygon>
 <hole x="67.72" y="11.555" drill="10.45"/>
-<wire x1="52" y1="9.58" x2="52" y2="10.89" width="0" layer="20"/>
-<wire x1="52" y1="10.89" x2="50.6" y2="12.29" width="0" layer="20" curve="90"/>
-<wire x1="50.6" y1="12.29" x2="44.4" y2="12.29" width="0" layer="20"/>
-<wire x1="44.4" y1="12.29" x2="43" y2="10.89" width="0" layer="20" curve="90"/>
-<wire x1="43" y1="10.89" x2="43" y2="9.58" width="0" layer="20"/>
+<wire x1="52" y1="9.58" x2="52" y2="9.89" width="0" layer="20"/>
+<wire x1="52" y1="9.89" x2="50.6" y2="11.29" width="0" layer="20" curve="90"/>
+<wire x1="50.6" y1="11.29" x2="44.4" y2="11.29" width="0" layer="20"/>
+<wire x1="44.4" y1="11.29" x2="43" y2="9.89" width="0" layer="20" curve="90"/>
+<wire x1="43" y1="9.89" x2="43" y2="9.58" width="0" layer="20"/>
 <wire x1="43" y1="9.58" x2="44.4" y2="8.18" width="0" layer="20" curve="90"/>
 <wire x1="44.4" y1="8.18" x2="50.6" y2="8.18" width="0" layer="20"/>
 <wire x1="50.6" y1="8.18" x2="52" y2="9.58" width="0" layer="20" curve="90"/>
@@ -226,13 +226,28 @@ Rev B
 <text x="67.72" y="20" size="1.5" layer="29" font="vector" ratio="20" align="center">Trigger
 In/Out</text>
 <text x="67.72" y="2" size="1" layer="29" font="vector" ratio="20" align="bottom-center">Out: 3.3V, 50 Ω
-In: 3.3V &amp; TTL compatible</text>
+In: TTL &amp; 3.3V compatible</text>
 <text x="47.5" y="2" size="1" layer="29" font="vector" ratio="20" align="bottom-center">To host computer
 </text>
-<text x="27.28" y="2" size="1" layer="29" font="vector" ratio="20" align="bottom-center">Green: Normal operation
-Green pulse: USB standby
-Blue slow blink: bootloader
-Red fast blink: error</text>
+<wire x1="20.23" y1="9.58" x2="34.33" y2="9.58" width="0" layer="20"/>
+<wire x1="34.33" y1="9.58" x2="34.33" y2="16.58" width="0" layer="20"/>
+<wire x1="34.33" y1="16.58" x2="30.03" y2="16.58" width="0" layer="20"/>
+<wire x1="30.03" y1="16.58" x2="30.03" y2="17.93" width="0" layer="20"/>
+<wire x1="30.03" y1="17.93" x2="24.53" y2="17.93" width="0" layer="20"/>
+<wire x1="24.53" y1="17.93" x2="24.53" y2="16.58" width="0" layer="20"/>
+<wire x1="24.53" y1="16.58" x2="20.23" y2="16.58" width="0" layer="20"/>
+<wire x1="20.23" y1="16.58" x2="20.23" y2="9.58" width="0" layer="20"/>
+<text x="27.28" y="3.49" size="1.5" layer="29" font="vector" ratio="20" align="center">GPIO</text>
+<text x="27.28" y="8.98" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="R90" align="center-right">GND
+IN1
+IN3
+GND
+OUT1</text>
+<text x="27.28" y="18.54" size="1.27" layer="29" font="vector" ratio="20" distance="100" rot="R90" align="center-left">Vref
+IN0
+IN2
+GND
+OUT0</text>
 </plain>
 <libraries>
 <library name="jetperch">
