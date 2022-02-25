@@ -52,11 +52,11 @@
     }
   },
   "J5": {
-    "value": "TSM-105-01-L-SV-A",
+    "value": "TSM-103-01-S-DV-A",
     "device": "CONN_0.1_3X2_MSA",
     "sheet": 1,
     "attributes": {
-      "MPN": "TSM-105-01-L-SV-A",
+      "MPN": "TSM-103-01-S-DV-A",
       "POPULATE": "1"
     }
   },

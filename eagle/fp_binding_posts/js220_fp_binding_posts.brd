@@ -622,8 +622,8 @@ These design rules are for standard two layer Jetperch designs.
 </pass>
 </autorouter>
 <elements>
-<element name="J5" library="jetperch" package="CONN_0.1_3X2_MSA" value="TSM-105-01-L-SV-A" x="47.5" y="11.0565" smashed="yes" rot="MR0">
-<attribute name="MPN" value="TSM-105-01-L-SV-A" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J5" library="jetperch" package="CONN_0.1_3X2_MSA" value="TSM-103-01-S-DV-A" x="47.5" y="11.0565" smashed="yes" rot="MR0">
+<attribute name="MPN" value="TSM-103-01-S-DV-A" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="51.642" y="5.3865" size="0.8128" layer="26" font="vector" ratio="22" rot="MR0"/>
 <attribute name="POPULATE" value="1" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>

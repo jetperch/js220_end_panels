@@ -628,8 +628,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="PG1"/>
-<part name="J5" library="jetperch" deviceset="CONN_0.1_3X2" device="_MSA" value="TSM-105-01-L-SV-A">
-<attribute name="MPN" value="TSM-105-01-L-SV-A"/>
+<part name="J5" library="jetperch" deviceset="CONN_0.1_3X2" device="_MSA" value="TSM-103-01-S-DV-A">
+<attribute name="MPN" value="TSM-103-01-S-DV-A"/>
 <attribute name="POPULATE" value="1"/>
 </part>
 <part name="J1" library="jetperch" deviceset="BINDING_POST" device="_6" value="111-0703-001">
