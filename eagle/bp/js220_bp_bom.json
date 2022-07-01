@@ -16,11 +16,10 @@
     }
   },
   "PCB1": {
-    "value": "JS220_ep_pcb_revB",
+    "value": "JS220_ep_pcb_revC",
     "device": "PCB",
     "sheet": 1,
     "attributes": {
-      "MPN": "JS220_fp_bp_pcb_revB",
       "POPULATE": "1"
     }
   }

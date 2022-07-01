@@ -246,8 +246,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <circle x="0" y="0" radius="2.159" width="0.127" layer="40"/>
 </package>
 <package name="CONN_0.1_3X2_MSA">
-<hole x="-1.27" y="0" drill="1.7272"/>
-<hole x="1.27" y="0" drill="1.7272"/>
+<hole x="-1.27" y="0" drill="1.651"/>
+<hole x="1.27" y="0" drill="1.651"/>
 <smd name="1" x="-2.54" y="-2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="2" x="-2.54" y="2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="3" x="0" y="-2.54" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
@@ -657,8 +657,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="MPN" value="111-0702-001"/>
 <attribute name="POPULATE" value="1"/>
 </part>
-<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_bp_pcb_revB">
-<attribute name="MPN" value="JS220_fp_bp_pcb_revB"/>
+<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_binding_post_pcb_revC">
 <attribute name="POPULATE" value="1"/>
 </part>
 </parts>
@@ -666,7 +665,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - Binding Posts</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">B</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">C</text>
 <text x="144.78" y="198.12" size="2.54" layer="97" align="center">+            -</text>
 <text x="144.78" y="203.2" size="2.54" layer="97" align="center">AMMETER</text>
 <text x="93.98" y="203.2" size="2.54" layer="97" align="center">VOLTMETER</text>
@@ -722,7 +721,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="VALUE" x="7.62" y="187.96" size="1.27" layer="96"/>
 <attribute name="NAME" x="7.62" y="196.088" size="1.27" layer="95"/>
 <attribute name="POPULATE" x="12.7" y="193.04" size="1.27" layer="96" display="off"/>
-<attribute name="MPN" x="12.7" y="193.04" size="1.27" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

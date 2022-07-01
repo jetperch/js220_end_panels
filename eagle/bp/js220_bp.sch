@@ -301,8 +301,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT">
 <attribute name="POPULATE" value="0"/>
 </part>
-<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_ep_pcb_revB">
-<attribute name="MPN" value="JS220_fp_bp_pcb_revB"/>
+<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_ep_pcb_revC">
 <attribute name="POPULATE" value="1"/>
 </part>
 </parts>
@@ -310,7 +309,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Back Panel</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">B</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -329,7 +328,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="VALUE" x="7.62" y="185.42" size="1.27" layer="96"/>
 <attribute name="NAME" x="7.62" y="193.548" size="1.27" layer="95"/>
 <attribute name="POPULATE" x="12.7" y="190.5" size="1.27" layer="96" display="off"/>
-<attribute name="MPN" x="12.7" y="190.5" size="1.27" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

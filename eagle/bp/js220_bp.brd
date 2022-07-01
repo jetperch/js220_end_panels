@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -160,8 +160,8 @@
 </layers>
 <board>
 <plain>
-<text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220_ep_pcb_revB
-JS220 End Panel, Rev B
+<text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">js220_ep_pcb_revC
+JS220 End Panel, Rev C
 2022 Jetperch LLC</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-6.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
@@ -210,19 +210,17 @@ Status</text>
 <vertex x="12.35" y="1.25"/>
 <vertex x="47.5" y="1.25"/>
 </polygon>
-<hole x="67.72" y="11.555" drill="10.45"/>
-<wire x1="52" y1="9.58" x2="52" y2="9.89" width="0" layer="20"/>
-<wire x1="52" y1="9.89" x2="50.6" y2="11.29" width="0" layer="20" curve="90"/>
-<wire x1="50.6" y1="11.29" x2="44.4" y2="11.29" width="0" layer="20"/>
-<wire x1="44.4" y1="11.29" x2="43" y2="9.89" width="0" layer="20" curve="90"/>
-<wire x1="43" y1="9.89" x2="43" y2="9.58" width="0" layer="20"/>
-<wire x1="43" y1="9.58" x2="44.4" y2="8.18" width="0" layer="20" curve="90"/>
-<wire x1="44.4" y1="8.18" x2="50.6" y2="8.18" width="0" layer="20"/>
-<wire x1="50.6" y1="8.18" x2="52" y2="9.58" width="0" layer="20" curve="90"/>
-<wire x1="66.32" y1="17.465" x2="69.12" y2="17.465" width="0" layer="20"/>
-<wire x1="69.12" y1="17.465" x2="69.12" y2="5.645" width="0" layer="20"/>
-<wire x1="69.12" y1="5.645" x2="66.32" y2="5.645" width="0" layer="20"/>
-<wire x1="66.32" y1="5.645" x2="66.32" y2="17.465" width="0" layer="20"/>
+<hole x="67.72" y="12.355" drill="10.05"/>
+<wire x1="42.85" y1="9.785" x2="44.505" y2="8.13" width="0" layer="20" curve="90"/>
+<wire x1="44.505" y1="8.13" x2="50.495" y2="8.13" width="0" layer="20"/>
+<wire x1="50.495" y1="8.13" x2="52.15" y2="9.785" width="0" layer="20" curve="90"/>
+<wire x1="52.15" y1="9.785" x2="50.495" y2="11.44" width="0" layer="20" curve="90"/>
+<wire x1="50.495" y1="11.44" x2="44.505" y2="11.44" width="0" layer="20"/>
+<wire x1="44.505" y1="11.44" x2="42.85" y2="9.785" width="0" layer="20" curve="90"/>
+<wire x1="66.52" y1="18.065" x2="68.92" y2="18.065" width="0" layer="20"/>
+<wire x1="68.92" y1="18.065" x2="68.92" y2="6.645" width="0" layer="20"/>
+<wire x1="68.92" y1="6.645" x2="66.52" y2="6.645" width="0" layer="20"/>
+<wire x1="66.52" y1="6.645" x2="66.52" y2="18.065" width="0" layer="20"/>
 <text x="47.5" y="13.6" size="2" layer="29" font="vector" ratio="20" align="center">USB</text>
 <text x="67.72" y="19.6" size="2" layer="29" font="vector" ratio="20" align="center">Trigger</text>
 <text x="67.72" y="3.5" size="1" layer="29" font="vector" ratio="20" distance="40" align="center">Out: 3.3V, 50 Ω
