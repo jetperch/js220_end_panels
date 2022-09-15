@@ -4,6 +4,21 @@
 This file contains the list of changes made to joulescope_front_panels.
 
 
+## 1.0.0
+
+2022 Sep 15
+
+* Updated back panel for production build.
+  * Increased USB hole size by 0.2 mm in left, right, and up directions
+  * Bumped rev from C to D.
+* Added additional boards:
+  * fb_usb2_ba: USB 2.0 B/A connector
+  * fp_bnc: BNC & 0.1" headers
+  * fp_js110: Safety banana jacks configured like the JS110.
+  * fp_baseline: Starting point for creating new boards in Eagle.
+
+
+
 ## 0.3.0
 
 2022 Jun 16

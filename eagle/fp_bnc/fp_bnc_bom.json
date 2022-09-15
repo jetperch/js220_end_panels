@@ -1,0 +1,103 @@
+{
+  "C1": {
+    "value": "0",
+    "device": "CAP_0603",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "C2": {
+    "value": "0",
+    "device": "CAP_0603",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H1": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H2": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J1": {
+    "value": "031-5329-52RFX",
+    "device": "BNC_JACKBNC_31-5329-52RFX",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "031-5329-52RFX",
+      "POPULATE": "1"
+    }
+  },
+  "J2": {
+    "value": "031-5329-52RFX",
+    "device": "BNC_JACKBNC_31-5329-52RFX",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "031-5329-52RFX",
+      "POPULATE": "1"
+    }
+  },
+  "J3": {
+    "value": "",
+    "device": "CONN_0.1_2X1",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J4": {
+    "value": "",
+    "device": "CONN_0.1_2X1",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J5": {
+    "value": "TSM-103-01-S-DV-A",
+    "device": "CONN_0.1_3X2_MSA",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "TSM-103-01-S-DV-A",
+      "POPULATE": "1"
+    }
+  },
+  "PCB1": {
+    "value": "JS220_fp_bnc_pcb_revA",
+    "device": "PCB",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "1"
+    }
+  },
+  "R1": {
+    "value": "0",
+    "device": "RESISTOR_1206",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0",
+      "TOLERANCE": "1%"
+    }
+  },
+  "R2": {
+    "value": "0",
+    "device": "RESISTOR_1206",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0",
+      "TOLERANCE": "1%"
+    }
+  }
+}

@@ -15,9 +15,17 @@ The boards have been fabricated using PCBWay.
 Here are the order notes ([example](pcbway_order.png)):
 
 * Size: 95 x 24.7 mm
-* Solder Mask: Black
-* Surface Finish: HASL lead free, yes to accept ENIG substitution
-* Special requests: Do not add markings.
+* FR-4, TG 150-160, 1.6 thick, 6/6, 0.3 mm min hole size
+* Solder Mask: Black, White silkscreen
+* Surface Finish: HASL lead free, do NOT check accept ENIG substitution
+* Finished Copper 1 oz
+
+
+Special requests text:
+The front-side surface is cosmetic.  
+Reject units with scratches and blemishes.
+Place all markings on back, including pcb product number.
+Add flammability rating marking on back, such as 94V-0.
 
 
 ## License

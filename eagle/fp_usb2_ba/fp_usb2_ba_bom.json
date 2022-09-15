@@ -1,0 +1,59 @@
+{
+  "H1": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H2": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J1": {
+    "value": "M701-330442",
+    "device": "USB-4-B_VTH",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "1"
+    }
+  },
+  "J2": {
+    "value": "UJ2-AV-1-TH",
+    "device": "USB-4-A_VTH",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "1"
+    }
+  },
+  "J3": {
+    "value": "",
+    "device": "TRACE_CUT0603",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J5": {
+    "value": "TSM-103-01-S-DV-A",
+    "device": "CONN_0.1_3X2_MSA",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "TSM-103-01-S-DV-A",
+      "POPULATE": "1"
+    }
+  },
+  "PCB1": {
+    "value": "JS220_fp_usb2_ba_pcb_revA",
+    "device": "PCB",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "1"
+    }
+  }
+}
