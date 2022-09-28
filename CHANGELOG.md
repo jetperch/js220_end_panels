@@ -4,6 +4,13 @@
 This file contains the list of changes made to joulescope_front_panels.
 
 
+## 1.0.1
+
+2022 Sep 28
+
+* Fixed fb_usb2_ba connector A USB connector holes.
+
+
 ## 1.0.0
 
 2022 Sep 15

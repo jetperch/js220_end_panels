@@ -644,15 +644,15 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <text x="-6.03" y="-4.784" size="0.6096" layer="25" font="vector" ratio="21">&gt;NAME</text>
-<pad name="1" x="-3" y="0.45" drill="0.9" shape="square"/>
+<pad name="1" x="-3.5" y="0.45" drill="0.9" shape="square"/>
 <pad name="2" x="-1" y="0.45" drill="0.9"/>
 <pad name="3" x="1" y="0.45" drill="0.9"/>
-<pad name="4" x="3" y="0.45" drill="0.9"/>
+<pad name="4" x="3.5" y="0.45" drill="0.9"/>
 <pad name="SHIELD@1" x="-6.57" y="-1.75" drill="2.3" diameter="3.5"/>
 <circle x="1" y="0.45" radius="0.7" width="0" layer="51"/>
-<circle x="3" y="0.45" radius="0.7" width="0" layer="51"/>
+<circle x="3.5" y="0.45" radius="0.7" width="0" layer="51"/>
 <circle x="-1" y="0.45" radius="0.7" width="0" layer="51"/>
-<rectangle x1="-3.7" y1="-0.25" x2="-2.3" y2="1.15" layer="51"/>
+<rectangle x1="-4.2" y1="-0.25" x2="-2.8" y2="1.15" layer="51"/>
 <circle x="-6.57" y="-1.75" radius="1.1" width="0" layer="51"/>
 <pad name="SHIELD@3" x="6.57" y="-1.75" drill="2.3" diameter="3.5"/>
 <circle x="6.57" y="-1.75" radius="1.1" width="0" layer="51"/>
@@ -976,7 +976,7 @@ During development and debug, the trace can be cut and a part installed.</descri
 <part name="H2" library="jetperch" deviceset="HOLE" device="_#6_NORESTRICT" value="HOLE_#6_NORESTRICT">
 <attribute name="POPULATE" value="0"/>
 </part>
-<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_usb2_ba_pcb_revA">
+<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_usb2_ba_pcb_revB">
 <attribute name="POPULATE" value="1"/>
 </part>
 <part name="J1" library="jetperch" deviceset="USB-4" device="-B_VTH" value="M701-330442">
@@ -991,7 +991,7 @@ During development and debug, the trace can be cut and a part installed.</descri
 <sheet>
 <plain>
 <text x="177.8" y="26.162" size="5.08" layer="97">Front Panel - USB2 B/A</text>
-<text x="266.7" y="6.35" size="3.175" layer="97">A</text>
+<text x="266.7" y="6.35" size="3.175" layer="97">B</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -1142,6 +1142,9 @@ During development and debug, the trace can be cut and a part installed.</descri
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,73.66,152.502,J3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

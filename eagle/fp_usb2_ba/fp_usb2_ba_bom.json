@@ -49,7 +49,7 @@
     }
   },
   "PCB1": {
-    "value": "JS220_fp_usb2_ba_pcb_revA",
+    "value": "JS220_fp_usb2_ba_pcb_revB",
     "device": "PCB",
     "sheet": 1,
     "attributes": {
