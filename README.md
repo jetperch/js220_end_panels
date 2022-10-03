@@ -8,8 +8,8 @@ connect to your power supply and target device.
 For more information on Joulescope, see 
 [www.joulescope.com](https://www.joulescope.com).
 
-The [Baseline PDF](fp_baseline.pdf) show the board outline and critical 
-dimensions.
+The [Baseline PDF](eagle/fp_baseline/fp_baseline.pdf) show the board outline
+and critical dimensions.
 
 The boards have been fabricated using PCBWay. 
 Here are the order notes ([example](pcbway_order.png)):

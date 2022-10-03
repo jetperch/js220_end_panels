@@ -164,7 +164,7 @@
 Description</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-17.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="47.5" y1="26.6" x2="28.45" y2="12.5" x3="37.975" y3="33.21" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="47.5" y1="11.0565" x2="28.45" y2="11.0565" x3="37.975" y3="33.21" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="26.6" x2="47.5" y2="26.6" x3="23.75" y3="36.794990625" textsize="1.778" layer="47"/>
 <text x="43.18" y="-10.16" size="1.778" layer="153">All dimensions in millimeters</text>
 <wire x1="3" y1="8.68" x2="42" y2="8.68" width="0.254" layer="22"/>
@@ -215,6 +215,13 @@ The front-side surface is cosmetic - reject units with scratches and blemishes.<
 <text x="-2.9" y="6.3" size="0.9" layer="47" rot="R90" align="center">2x holes</text>
 <text x="47.5" y="4.008" size="1.5" layer="29" font="vector" ratio="20" align="center">Isolated
 ±48V max to USB ground</text>
+<dimension x1="3.79" y1="12.35" x2="0" y2="12.35" x3="1.895" y3="-7" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="91.21" y1="12.35" x2="95" y2="12" x3="93.105" y3="-5" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="47.5" y1="11.0565" x2="47" y2="0" x3="100" y3="5.52825" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="12.35" y1="12.35" x2="1.2326" y2="17.728278125" x3="-5.788915625" y3="21.1250875" textsize="1.778" layer="47" dtype="radius"/>
+<text x="12.573" y="-36.892" size="1.778" layer="153">We recommend making the front-side layer chassis ground.
+Add 1.25 mm of exposed chassis ground copper on back layer edge
+that is via stitched to front chassis ground plane.</text>
 </plain>
 <libraries>
 <library name="jetperch">

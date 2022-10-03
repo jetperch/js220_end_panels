@@ -4,6 +4,15 @@
 This file contains the list of changes made to joulescope_front_panels.
 
 
+## 1.0.2
+
+2022 Oct 3
+
+* Improved fp_baseline dimensioning.
+* Added fp_baseline.pdf.
+* First public release.
+
+
 ## 1.0.1
 
 2022 Sep 28
