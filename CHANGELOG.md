@@ -11,6 +11,7 @@ This file contains the list of changes made to joulescope_front_panels.
 * Improved fp_baseline dimensioning.
 * Added fp_baseline.pdf.
 * First public release.
+* Added PCBWay order example.
 
 
 ## 1.0.1
