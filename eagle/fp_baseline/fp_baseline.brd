@@ -163,10 +163,10 @@
 <text x="47.5" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">Part number
 Description</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-17.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-16.89" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="47.5" y1="11.0565" x2="28.45" y2="11.0565" x3="37.975" y3="33.21" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="26.6" x2="47.5" y2="26.6" x3="23.75" y3="36.794990625" textsize="1.778" layer="47"/>
-<text x="43.18" y="-10.16" size="1.778" layer="153">All dimensions in millimeters</text>
+<text x="35.18" y="-5.16" size="1.778" layer="153">All dimensions in millimeters</text>
 <wire x1="3" y1="8.68" x2="42" y2="8.68" width="0.254" layer="22"/>
 <wire x1="3" y1="7.78" x2="44" y2="7.78" width="0.127" layer="22" style="shortdash"/>
 <wire x1="4" y1="6.88" x2="42" y2="6.88" width="0.254" layer="22"/>
@@ -206,22 +206,43 @@ Status</text>
 <vertex x="47.5" y="1.25"/>
 </polygon>
 <wire x1="53" y1="8.68" x2="92" y2="8.68" width="0.254" layer="22"/>
-<text x="12.573" y="-24.892" size="1.778" layer="153">Place all markings on back (including pcb order number). 
+<text x="12.573" y="-16.892" size="1.778" layer="153">Place all markings on back (including pcb order number). 
 Add flammability rating marking on back, such as 94V-0. 
 The front-side surface is cosmetic - reject units with scratches and blemishes.</text>
-<dimension x1="0" y1="0" x2="0" y2="12.35" x3="-4.35" y3="6.175" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="28.45" y1="0" x2="28.45" y2="12.5" x3="-12.35" y3="6.25" textsize="1.778" layer="47" dtype="vertical"/>
-<text x="-11.2" y="6.1" size="0.9" layer="47" rot="R90" align="center">Sensor Status</text>
-<text x="-2.9" y="6.3" size="0.9" layer="47" rot="R90" align="center">2x holes</text>
+<dimension x1="0" y1="0" x2="0" y2="12.35" x3="-7.192" y3="6.175" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="28.45" y1="0" x2="28.45" y2="12.5" x3="-12.652" y3="6.25" textsize="1.778" layer="47" dtype="vertical"/>
+<text x="-11.248" y="6.1" size="0.9" layer="47" rot="R90" align="center">Sensor Status</text>
+<text x="-5.742" y="6.554" size="0.9" layer="47" rot="R90" align="center">2x holes</text>
 <text x="47.5" y="4.008" size="1.5" layer="29" font="vector" ratio="20" align="center">Isolated
 ±48V max to USB ground</text>
 <dimension x1="3.79" y1="12.35" x2="0" y2="12.35" x3="1.895" y3="-7" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="91.21" y1="12.35" x2="95" y2="12" x3="93.105" y3="-5" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="47.5" y1="11.0565" x2="47" y2="0" x3="100" y3="5.52825" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="12.35" y1="12.35" x2="1.2326" y2="17.728278125" x3="-5.788915625" y3="21.1250875" textsize="1.778" layer="47" dtype="radius"/>
-<text x="12.573" y="-36.892" size="1.778" layer="153">We recommend making the front-side layer chassis ground.
+<dimension x1="47.5" y1="11.0565" x2="47" y2="0" x3="103" y3="5.52825" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="12.35" y1="12.35" x2="1.796890625" y2="18.765165625" x3="-4.86823125" y3="22.816846875" textsize="1.778" layer="47" dtype="radius"/>
+<text x="12.573" y="-33.892" size="1.778" layer="153">JS220 MAIN PCB is 1.6 mm (0.062").
+
+We recommend making the front-side layer chassis ground.
 Add 1.25 mm of exposed chassis ground copper on back layer edge
 that is via stitched to front chassis ground plane.</text>
+<text x="44.96" y="11.0565" size="1.27" layer="51" font="vector" ratio="21" distance="175" align="center">V+
+
+
+V-</text>
+<text x="47.5" y="11.0565" size="1.27" layer="51" font="vector" ratio="21" distance="175" align="center">I-
+
+
+I-</text>
+<text x="50.04" y="11.0565" size="1.27" layer="51" font="vector" ratio="21" distance="175" align="center">I+
+
+
+I+</text>
+<dimension x1="3.79" y1="12.35" x2="-6.35" y2="17.526" x3="-6.35" y3="17.526" textsize="1.778" layer="47" dtype="leader"/>
+<dimension x1="27.686" y1="13.97" x2="23.368" y2="28.702" x3="19.812" y3="28.702" textsize="1.778" layer="47" dtype="leader"/>
+<text x="10.922" y="28.448" size="1.27" layer="47">Ø 3.3 hole</text>
+<text x="-15.24" y="17.78" size="1.27" layer="47">Ø 3.5 hole
+Ø 7.6 top keepout</text>
+<dimension x1="3" y1="7.78" x2="12.35" y2="0" x3="-2.064" y3="3.89" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="91" y1="6.88" x2="92" y2="8.68" x3="98" y3="7.78" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="jetperch">
