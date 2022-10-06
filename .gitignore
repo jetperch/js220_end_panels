@@ -2,11 +2,13 @@
 *.s#*
 *.b#*
 
-# KiCAD backup and cache files
+# KiCAD backup, cache and local project setting files
 *.bak
 *-bak
 *-cache
 *-cache.lib
+*.kicad_prl
+**/*-backups/*
 
 
 # Microsoft temporary files
