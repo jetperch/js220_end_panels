@@ -4,6 +4,13 @@
 This file contains the list of changes made to joulescope_front_panels.
 
 
+## 1.0.3
+
+2022 Oct 23
+
+* Added connector part number to README.
+
+
 ## 1.0.2
 
 2022 Oct 3

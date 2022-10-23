@@ -11,6 +11,11 @@ For more information on Joulescope, see
 The [Baseline PDF](eagle/fp_baseline/fp_baseline.pdf) show the board outline
 and critical dimensions.
 
+The 2x3 connector to the main board is
+[Samtec TSM-103-01-S-DV-A](https://www.samtec.com/products/tsm-103-01-s-dv-a) (
+[Mouser](https://www.mouser.com/ProductDetail/Samtec/TSM-103-01-S-DV-A?qs=0lQeLiL1qyYnWtGorwZW9A%3D%3D),
+[Digi-Key](https://www.digikey.com/en/products/detail/TSM-103-01-S-DV-A/TSM-103-01-S-DV-A-ND/2685555))
+
 The boards have been fabricated using PCBWay. 
 Here are the order notes ([example](pcbway_order.png)):
 
