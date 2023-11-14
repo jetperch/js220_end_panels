@@ -1,0 +1,71 @@
+{
+  "H1": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "H2": {
+    "value": "HOLE_#6_NORESTRICT",
+    "device": "HOLE_#6_NORESTRICT",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "0"
+    }
+  },
+  "J1": {
+    "value": "CT3151V1-0",
+    "device": "BANANA-JACK_CT3151V",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "CT3151V1-0",
+      "POPULATE": "1"
+    }
+  },
+  "J2": {
+    "value": "CT3149-2",
+    "device": "BANANA-JACK_CT3151V",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "CT3151V1-2",
+      "POPULATE": "1"
+    }
+  },
+  "J3": {
+    "value": "CT3151V1-2",
+    "device": "BANANA-JACK_CT3151V",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "CT3151V1-2",
+      "POPULATE": "1"
+    }
+  },
+  "J4": {
+    "value": "CT3151V1-4",
+    "device": "BANANA-JACK_CT3151V",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "CT3151V1-4",
+      "POPULATE": "1"
+    }
+  },
+  "J5": {
+    "value": "TSM-103-01-S-DV-A",
+    "device": "CONN_0.1_3X2_MSA",
+    "sheet": 1,
+    "attributes": {
+      "MPN": "TSM-103-01-S-DV-A",
+      "POPULATE": "1"
+    }
+  },
+  "PCB1": {
+    "value": "JS220_fp_banana_pcb_revA",
+    "device": "PCB",
+    "sheet": 1,
+    "attributes": {
+      "POPULATE": "1"
+    }
+  }
+}
