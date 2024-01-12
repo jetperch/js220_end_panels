@@ -61,7 +61,7 @@
     }
   },
   "PCB1": {
-    "value": "JS220_fp_banana_pcb_revA",
+    "value": "JS220_fp_sba_pcb_revA",
     "device": "PCB",
     "sheet": 1,
     "attributes": {

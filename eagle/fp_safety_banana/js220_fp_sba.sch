@@ -768,7 +768,7 @@ Compatible with #6 hole size, such as Cinch 111-0703-001 (black) and 111-0702-01
 <attribute name="MPN" value="CT3151V1-2"/>
 <attribute name="POPULATE" value="1"/>
 </part>
-<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_banana_pcb_revA">
+<part name="PCB1" library="jetperch" deviceset="PCB" device="" value="JS220_fp_sba_pcb_revA">
 <attribute name="POPULATE" value="1"/>
 </part>
 </parts>
