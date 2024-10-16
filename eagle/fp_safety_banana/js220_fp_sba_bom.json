@@ -16,8 +16,8 @@
     }
   },
   "J1": {
-    "value": "CT3151V1-0",
-    "device": "BANANA-JACK_CT3151V",
+    "value": "CT3149-0",
+    "device": "BANANA-JACK_CT3149",
     "sheet": 1,
     "attributes": {
       "MPN": "CT3151V1-0",
@@ -26,7 +26,7 @@
   },
   "J2": {
     "value": "CT3149-2",
-    "device": "BANANA-JACK_CT3151V",
+    "device": "BANANA-JACK_CT3149",
     "sheet": 1,
     "attributes": {
       "MPN": "CT3151V1-2",
@@ -34,8 +34,8 @@
     }
   },
   "J3": {
-    "value": "CT3151V1-2",
-    "device": "BANANA-JACK_CT3151V",
+    "value": "CT3149-2",
+    "device": "BANANA-JACK_CT3149",
     "sheet": 1,
     "attributes": {
       "MPN": "CT3151V1-2",
@@ -43,8 +43,8 @@
     }
   },
   "J4": {
-    "value": "CT3151V1-4",
-    "device": "BANANA-JACK_CT3151V",
+    "value": "CT3149-4",
+    "device": "BANANA-JACK_CT3149",
     "sheet": 1,
     "attributes": {
       "MPN": "CT3151V1-4",
@@ -61,7 +61,7 @@
     }
   },
   "PCB1": {
-    "value": "JS220_fp_sba_pcb_revA",
+    "value": "JS220_fp_sba_pcb_revB",
     "device": "PCB",
     "sheet": 1,
     "attributes": {

@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -162,9 +162,9 @@
 <plain>
 <text x="28.45" y="20.5" size="3" layer="29" font="vector" ratio="20" distance="40" align="center">Voltage</text>
 <text x="66.55" y="20.5" size="3" layer="29" font="vector" ratio="20" distance="40" align="center">Current</text>
-<text x="28.45" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220_fp_banana_pcb_revC
+<text x="28.45" y="20.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">JS220_fp_sba_pcb_revB
 JS220 Safety Banana Jack Front Panel
-Rev A</text>
+Rev B</text>
 <dimension x1="0" y1="12.35" x2="95" y2="12.35" x3="47.5" y3="40.64" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="12.35" y1="0" x2="12.35" y2="24.7" x3="-17.35" y3="12.35" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="18.925" y1="12.35" x2="37.975" y2="12.35" x3="28.45" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal"/>
@@ -275,7 +275,7 @@ The front-side surface is cosmetic - reject units with scratches and blemishes.<
 <wire x1="73.533" y1="22.225" x2="49.149" y2="22.225" width="0.254" layer="30"/>
 <wire x1="49.149" y1="22.225" x2="46.228" y2="19.304" width="0.254" layer="30"/>
 <wire x1="46.228" y1="19.304" x2="46.228" y2="16.891" width="0.254" layer="30"/>
-<text x="28.45" y="2.5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">2023 Jetperch LLC</text>
+<text x="28.45" y="2.5" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">2024 Jetperch LLC</text>
 <wire x1="46" y1="4" x2="45" y2="3" width="0.254" layer="30"/>
 <wire x1="45" y1="3" x2="36.7" y2="3" width="0.254" layer="30"/>
 <wire x1="36.7" y1="3" x2="36.1" y2="3.6" width="0.254" layer="30"/>
@@ -472,13 +472,12 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <hole x="0" y="0" drill="3.5"/>
 <circle x="0" y="0" radius="2.159" width="0.127" layer="40"/>
 </package>
-<package name="CT3151V">
-<text x="4.572" y="-7.239" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
-<pad name="1" x="-1.685" y="-1.685" drill="1.65"/>
-<pad name="2" x="1.685" y="-1.685" drill="1.65"/>
-<pad name="3" x="1.685" y="1.685" drill="1.65"/>
-<pad name="4" x="-1.685" y="1.685" drill="1.65"/>
-<circle x="0" y="0" radius="6.75" width="0.127" layer="51"/>
+<package name="CT3149">
+<pad name="A" x="0" y="0" drill="2.032" diameter="4.318"/>
+<circle x="0" y="0" radius="4.699" width="0.254" layer="21"/>
+<text x="-1.905" y="2.286" size="0.8128" layer="25" font="vector" ratio="22">&gt;NAME</text>
+<circle x="0" y="0" radius="6.985" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="0.254" layer="51"/>
 </package>
 </packages>
 </library>
@@ -676,15 +675,15 @@ These design rules are for standard two layer Jetperch designs.
 <attribute name="NAME" x="47.959" y="5.0055" size="0.8128" layer="26" font="vector" ratio="22" rot="MR0"/>
 <attribute name="POPULATE" value="1" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J1" library="jetperch" package="CT3151V" value="CT3151V1-0" x="18.925" y="12.35" smashed="yes">
+<element name="J1" library="jetperch" package="CT3149" value="CT3149-0" x="18.925" y="12.35" smashed="yes">
 <attribute name="MPN" value="CT3151V1-0" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="jetperch" package="CT3151V" value="CT3151V1-2" x="57.025" y="12.35" smashed="yes">
+<element name="J3" library="jetperch" package="CT3149" value="CT3149-2" x="57.025" y="12.35" smashed="yes">
 <attribute name="MPN" value="CT3151V1-2" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J4" library="jetperch" package="CT3151V" value="CT3151V1-4" x="76.075" y="12.35" smashed="yes">
+<element name="J4" library="jetperch" package="CT3149" value="CT3149-4" x="76.075" y="12.35" smashed="yes">
 <attribute name="MPN" value="CT3151V1-4" x="76.075" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="76.075" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
@@ -703,14 +702,14 @@ These design rules are for standard two layer Jetperch designs.
 <element name="H2" library="jetperch" package="HOLE_3.5MM_NORESTRICT" value="HOLE_#6_NORESTRICT" x="91.21" y="12.35" smashed="yes">
 <attribute name="POPULATE" value="0" x="91.21" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J2" library="jetperch" package="CT3151V" value="CT3149-2" x="37.975" y="12.35" smashed="yes">
+<element name="J2" library="jetperch" package="CT3149" value="CT3149-2" x="37.975" y="12.35" smashed="yes">
 <attribute name="MPN" value="CT3151V1-2" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="I+">
-<contactref element="J3" pad="1"/>
+<contactref element="J3" pad="A"/>
 <contactref element="J5" pad="1"/>
 <contactref element="J5" pad="2"/>
 <wire x1="50.04" y1="8.5165" x2="53.1915" y2="8.5165" width="0.254" layer="16"/>
@@ -727,40 +726,27 @@ These design rules are for standard two layer Jetperch designs.
 <vertex x="50.292" y="9.906"/>
 <vertex x="49.657" y="9.271"/>
 </polygon>
-<contactref element="J3" pad="2"/>
-<contactref element="J3" pad="3"/>
-<contactref element="J3" pad="4"/>
-<wire x1="53.1915" y1="8.5165" x2="55.34" y2="10.665" width="0.254" layer="16"/>
+<wire x1="53.1915" y1="8.5165" x2="57.025" y2="12.35" width="0.254" layer="16"/>
 <wire x1="50.04" y1="13.5965" x2="50.4785" y2="14.035" width="0.254" layer="16"/>
 <wire x1="50.4785" y1="14.035" x2="55.34" y2="14.035" width="0.254" layer="16"/>
-<wire x1="55.34" y1="14.035" x2="58.71" y2="14.035" width="0.254" layer="16"/>
-<wire x1="58.71" y1="14.035" x2="58.71" y2="10.665" width="0.254" layer="16"/>
-<wire x1="58.71" y1="10.665" x2="55.34" y2="10.665" width="0.254" layer="16"/>
-<wire x1="55.34" y1="10.665" x2="55.34" y2="14.035" width="0.254" layer="16"/>
+<wire x1="57.025" y1="12.35" x2="55.34" y2="14.035" width="0.254" layer="16"/>
 </signal>
 <signal name="V-">
-<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="A"/>
 <contactref element="J5" pad="5"/>
-<contactref element="J1" pad="2"/>
-<contactref element="J1" pad="3"/>
-<contactref element="J1" pad="4"/>
-<wire x1="17.24" y1="14.035" x2="17.24" y2="10.665" width="1" layer="16"/>
-<wire x1="17.24" y1="10.665" x2="20.61" y2="10.665" width="1" layer="16"/>
-<wire x1="20.61" y1="10.665" x2="20.61" y2="14.035" width="1" layer="16"/>
-<wire x1="20.61" y1="14.035" x2="17.24" y2="14.035" width="1" layer="16"/>
-<wire x1="20.61" y1="10.665" x2="26.275" y2="5" width="1" layer="16"/>
 <wire x1="44.96" y1="7.5165" x2="44.96" y2="8.5165" width="1" layer="16"/>
 <wire x1="44.96" y1="7.5165" x2="42.4435" y2="5" width="1" layer="16"/>
 <wire x1="26.275" y1="5" x2="42.4435" y2="5" width="1" layer="16"/>
+<wire x1="18.925" y1="12.35" x2="26.275" y2="5" width="1" layer="16"/>
 </signal>
 <signal name="I-">
-<contactref element="J4" pad="1"/>
+<contactref element="J4" pad="A"/>
 <contactref element="J5" pad="4"/>
 <contactref element="J5" pad="3"/>
 <wire x1="47.5" y1="8.5165" x2="47.5" y2="5.5" width="0.254" layer="16"/>
 <wire x1="47.5" y1="5.5" x2="48" y2="5" width="0.254" layer="16"/>
 <wire x1="48" y1="5" x2="68.725" y2="5" width="0.254" layer="16"/>
-<wire x1="68.725" y1="5" x2="74.39" y2="10.665" width="0.254" layer="16"/>
+<wire x1="68.725" y1="5" x2="76.075" y2="12.35" width="0.254" layer="16"/>
 <wire x1="47.5" y1="13.5965" x2="47.5" y2="17.5" width="0.254" layer="16"/>
 <wire x1="49" y1="19" x2="47.5" y2="17.5" width="0.254" layer="16"/>
 <polygon width="0.254" layer="16" thermals="no">
@@ -784,16 +770,10 @@ These design rules are for standard two layer Jetperch designs.
 <vertex x="47.879" y="15.24"/>
 <vertex x="47.879" y="14.732"/>
 </polygon>
-<contactref element="J4" pad="2"/>
-<contactref element="J4" pad="3"/>
-<contactref element="J4" pad="4"/>
 <wire x1="66" y1="19" x2="49" y2="19" width="0.254" layer="16"/>
 <wire x1="66" y1="19" x2="70.965" y2="14.035" width="0.254" layer="16"/>
 <wire x1="70.965" y1="14.035" x2="74.39" y2="14.035" width="0.254" layer="16"/>
-<wire x1="74.39" y1="14.035" x2="77.76" y2="14.035" width="0.254" layer="16"/>
-<wire x1="77.76" y1="14.035" x2="77.76" y2="10.665" width="0.254" layer="16"/>
-<wire x1="77.76" y1="10.665" x2="74.39" y2="10.665" width="0.254" layer="16"/>
-<wire x1="74.39" y1="10.665" x2="74.39" y2="14.035" width="0.254" layer="16"/>
+<wire x1="76.075" y1="12.35" x2="74.39" y2="14.035" width="0.254" layer="16"/>
 </signal>
 <signal name="CGND">
 <polygon width="0.254" layer="1" isolate="0.508">
@@ -855,16 +835,9 @@ These design rules are for standard two layer Jetperch designs.
 </signal>
 <signal name="V+">
 <contactref element="J5" pad="6"/>
-<contactref element="J2" pad="1"/>
-<contactref element="J2" pad="2"/>
-<contactref element="J2" pad="3"/>
-<contactref element="J2" pad="4"/>
-<wire x1="44.96" y1="13.5965" x2="40.0985" y2="13.5965" width="1" layer="16"/>
-<wire x1="40.0985" y1="13.5965" x2="39.66" y2="14.035" width="1" layer="16"/>
-<wire x1="39.66" y1="14.035" x2="36.29" y2="14.035" width="1" layer="16"/>
-<wire x1="36.29" y1="14.035" x2="36.29" y2="10.665" width="1" layer="16"/>
-<wire x1="36.29" y1="10.665" x2="39.66" y2="10.665" width="1" layer="16"/>
-<wire x1="39.66" y1="10.665" x2="39.66" y2="14.035" width="1" layer="16"/>
+<contactref element="J2" pad="A"/>
+<wire x1="37.975" y1="12.35" x2="39.2215" y2="13.5965" width="1" layer="16"/>
+<wire x1="39.2215" y1="13.5965" x2="44.96" y2="13.5965" width="1" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -875,22 +848,10 @@ These design rules are for standard two layer Jetperch designs.
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="6,1,49a9306c805cf999"/>
-<approved hash="6,1,0377102fd61fc547"/>
-<approved hash="6,1,4b8d58dee8eefbbd"/>
-<approved hash="6,1,0153789dbeadc763"/>
-<approved hash="6,1,bf71ac2384139741"/>
-<approved hash="6,1,eb6cf8341004035c"/>
-<approved hash="6,1,9b73881fb22fa143"/>
-<approved hash="6,1,9957e0adda9da367"/>
-<approved hash="6,1,e948908678b60178"/>
-<approved hash="6,1,df71cc2584159741"/>
-<approved hash="6,1,3b77283bd20bc147"/>
-<approved hash="6,1,dd55a497eca79565"/>
-<approved hash="6,1,39534089bab9c363"/>
-<approved hash="6,1,c373d019f629e543"/>
-<approved hash="6,1,c157b8ab9e9be767"/>
-<approved hash="6,1,bd55c491eca19565"/>
+<approved hash="6,1,03620a214b234260"/>
+<approved hash="6,1,a917a0271d251415"/>
+<approved hash="6,1,174c1e22f120f84e"/>
+<approved hash="6,1,31633826e324ea61"/>
 </errors>
 </board>
 </drawing>
