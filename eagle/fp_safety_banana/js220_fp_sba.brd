@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -676,15 +676,12 @@ These design rules are for standard two layer Jetperch designs.
 <attribute name="POPULATE" value="1" x="47.5" y="11.0565" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J1" library="jetperch" package="CT3149" value="CT3149-0" x="18.925" y="12.35" smashed="yes">
-<attribute name="MPN" value="CT3151V1-0" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="18.925" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J3" library="jetperch" package="CT3149" value="CT3149-2" x="57.025" y="12.35" smashed="yes">
-<attribute name="MPN" value="CT3151V1-2" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="57.025" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J4" library="jetperch" package="CT3149" value="CT3149-4" x="76.075" y="12.35" smashed="yes">
-<attribute name="MPN" value="CT3151V1-4" x="76.075" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="76.075" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FUD1" library="jetperch" package="FIDUCIAL_1MM_2MM" value="FIDUCIAL_1MM" x="7.79" y="3.79" smashed="yes" rot="MR0">
@@ -703,7 +700,6 @@ These design rules are for standard two layer Jetperch designs.
 <attribute name="POPULATE" value="0" x="91.21" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J2" library="jetperch" package="CT3149" value="CT3149-2" x="37.975" y="12.35" smashed="yes">
-<attribute name="MPN" value="CT3151V1-2" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="37.975" y="12.35" size="1.778" layer="27" display="off"/>
 </element>
 </elements>

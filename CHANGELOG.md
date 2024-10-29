@@ -4,6 +4,13 @@
 This file contains the list of changes made to joulescope_front_panels.
 
 
+## 1.1.0
+
+2024 Oct 29
+
+* Added JS220 Safety Banana Jack front panel.
+
+
 ## 1.0.3
 
 2022 Oct 23
